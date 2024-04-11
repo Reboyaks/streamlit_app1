@@ -2,6 +2,7 @@ import pandas as pd
 from datetime import datetime
 import streamlit as st
 import plotly.express as px
+import win32api
 
 file = 'C:/Users/ms228909/Downloads/NAC1_LTE_KPIS_2023_sched_rbt-rp006082-2024_04_11-08_52_44__239/NAC1.csv'
 df = pd.read_csv(file, delimiter=";")
